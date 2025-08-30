@@ -1,0 +1,13 @@
+{
+  "name": "quote-generator",
+  "version": "1.0.0",
+  "description": "A simple frontend-only random quote generator web application",
+  "main": "frontend/index.html",
+  "scripts": {
+    "start": "python3 -m http.server 3000 --directory frontend",
+    "dev": "python3 -m http.server 3000 --directory frontend"
+  },
+  "keywords": ["quotes", "random", "inspiration", "web-app", "frontend"],
+  "author": "Marcel Vettermann",
+  "license": "MIT"
+}
